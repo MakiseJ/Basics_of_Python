@@ -7,6 +7,7 @@ class Person:
         print("Good Morning!")
         print("my name is", self.name)
         print(f"and I am {self.age}")
+        print("It is time to go! :)")
 
 
 p = Person()
