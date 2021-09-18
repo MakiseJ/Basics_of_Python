@@ -19,6 +19,9 @@ def some_function():
     pass
 
 
+def afuncwithparam(a, b=10, c=12):
+    print(f"a={a},b={b},c={c}")
+
 globalV = 33
 x=19
 b=13
@@ -28,3 +31,6 @@ print(x, b)
 test_global()
 print("now globalV actually is", globalV)
 some_function()
+afuncwithparam(33,c=32)
+afuncwithparam(12, 2, b=33) # duplicated passing is invalid
+# afuncwithparam(a=12,32) # cannot use keyword before positional parameter
