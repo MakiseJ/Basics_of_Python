@@ -7,6 +7,7 @@ print(listTest[-1:-4:-1])
 
 a = "hi"
 b = 23
+# Here is a tuple
 tu = (a, b)
 # you cannot modify a tuple
 # so tu[0]=9 is unacceptable
